@@ -1,0 +1,361 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*start here*/
+body {font-family: quicksand;
+	background-color: #333646;
+	color: #bebebe;
+	font-size: 17px;
+	}
+
+.container {
+		width: 1920px;
+		margin: auto;
+		background-color: #333646 ; 
+
+
+			}
+
+/*Menu daftar isi*/
+
+
+.profiles {height: 65px;
+			width: 1920px;
+			margin-right: px;
+			background-color: #252734;
+			position: fixed;
+			z-index: 999;	
+			}
+
+.personalweb { display: inline-block;
+			float: left;
+			font-size: 20px;
+			margin-top: 20px;
+			margin-left: 278px;
+			color: #ffffff;
+			}
+
+.profiles ul li {display: inline-block;
+				margin-right: 304px;
+				margin-left: -170px;
+				margin-top: 20px;
+				float: right; 
+				}
+
+.profiles a {text-decoration: none;
+			color: #ffc25c;
+			font-size: 20px;
+			}
+
+.profiles a:hover {color: #bebebe; 
+					}
+
+
+/*main page profi kiri*/
+
+.pfrizkia {width: 820px;
+			height: 610px;
+			margin-left: 140px;
+			padding-left: 138px;
+			padding-top: 164px;
+			box-sizing: border-box;
+			background-color: ; 
+			float: left;}
+
+.pfrizkia h1 {color: #ffffff;}
+
+.profilesrizkiaas {font-size: 70px;}
+
+.profilesuiux {font-size: 17px;
+			margin-bottom: 47px;
+			}
+
+.profilesmoto {font-size: 20px;
+				color: #ffc25c;
+			 
+				}
+/*main page profil kanan*/
+
+.mpright {width: 820px;
+		height: 610px;
+		margin-right: 140px;
+		padding-top: 243px;
+		padding-left: 146px;
+		box-sizing: border-box;
+		background-color: be;
+		float: right;
+		}
+
+.mpmore a {font-size: 20px;
+			color: #ffc25c ;
+			margin-right: 341px;
+			text-decoration: none;
+			float: right;	
+				}
+
+.mpmore a:hover {color: #bebebe;}
+
+
+.reviewsmore a:hover {color: #bebebe;}
+
+/* bar show off*/
+.barshowoff h1 {font-size: 70px;
+				color: #ffc25c;
+				}
+
+.barshowoff p {font-size: 20px;
+				color: #bebebe;}
+
+.bsoui, .bsof, .bsob {text-align: justify;
+					height: 305px;
+					background-color: #252734;
+					box-sizing: border-box;
+					padding-top: 110px;
+					transition: 0.3s
+				}
+
+.bsoui {width: 546px;
+		margin-left: 140px;
+		padding-left: 193px;
+		float: left;
+		border-radius: 20px 0px 0px 20px;
+		}
+
+.bsof {width: 548px;
+		padding-left: 157px;
+		float: left;}
+
+.bsob {width: 546px;
+		margin-right: 140px;
+		padding-left: 163px;
+		float: right;
+		border-radius: 0px 20px 20px 0px;
+
+		}
+
+.bsoui:hover, .bsof:hover, .bsob:hover {transform: translateY(-20px);
+			border-radius: 20px;
+			filter: drop-shadow(0px 20px 10px #1B1C26); 
+			}
+
+
+/* my works opening*/
+
+.myworkstitle {font-size: 70px;
+				color: #ffffff;
+				margin-left: 278px;
+				margin-top: 129px;
+
+				}
+.mwdesc {margin-left: 278px;
+}
+
+/*first class*/
+
+	/*first thumb*/
+.fcfirstthumb {width: 797px;
+				height: 483px;
+				box-sizing: border-box;
+				background-color: re;
+				color: #bebebe;
+				margin-left: 262px;
+				margin-top: 156px;
+				float: left;
+				transition: 0.3s;}
+
+.fcfirstthumb p, .fcsecondthumb p, .fcthirdthumb p {margin-bottom: 20px;}
+
+/*second thumb*/
+.fcsecondthumb {width: 536px;
+				height: 988px;
+				box-sizing: border-box;
+				background-color: re;
+				color: #bebebe;
+				margin-right: 262px;
+				margin-top: -438px;
+				float: right;
+				transition: 0.3s;}
+
+
+
+/*third thumb*/
+.fcthirdthumb {width: 797px;
+				height: 483px;
+				box-sizing: border-box;
+				background-color: re;
+				color: #bebebe;
+				margin-left: 262px;
+				margin-top: -483px;
+				transition: 0.3s;}
+
+
+.fcfirstthumb:hover, .fcsecondthumb:hover, .fcthirdthumb:hover 
+			{transform: translateY(-20px);
+			transform: scale(1.1);
+			filter: drop-shadow(0px 20px 10px #1B1C26); 
+			}
+
+/*second class*/
+
+	/*first thumb*/
+.scfirstthumb {width: 797px;
+				height: 483px;
+				box-sizing: border-box;
+				background-color: re;
+				color: #bebebe;
+				margin-right: 262px;
+				margin-top: 156px;
+				float: right;
+				transition: 0.3s;}
+
+.scfirstthumb p, .scsecondthumb p, .scthirdthumb p {margin-bottom: 20px;}
+
+/*second thumb*/
+.scsecondthumb {width: 536px;
+				height: 988px;
+				box-sizing: border-box;
+				background-color: re;
+				color: #bebebe;
+				margin-left: 262px;
+				margin-top: -438px;
+				float: left;
+				transition: 0.3s;}
+
+
+
+/*third thumb*/
+.scthirdthumb {width: 797px;
+				height: 483px;
+				box-sizing: border-box;
+				background-color: re;
+				color: #bebebe;
+				margin-right: 262px;
+				margin-top: -483px;
+				float: right;
+				transition: 0.3s;}
+
+
+.scfirstthumb:hover, .scsecondthumb:hover, .scthirdthumb:hover 
+			{transform: translateY(-20px);
+			transform: scale(1.1);
+			filter: drop-shadow(0px 20px 10px #1B1C26); 
+			}
+
+
+
+
+/* my works closed*/
+
+.mwseemore a {font-size: 20px;
+			color: #ffc25c;
+			margin-top: 167px;
+			margin-right: 446px;
+			text-decoration: none;
+			float: right;
+
+			}
+
+.mwseemore a:hover {color: #bebebe;}
+
+/*reviews opening*/
+.reviewstitle {font-size: 70px;
+				color: #ffffff;
+				margin-top: 129px;
+				margin-left: 278px;
+				color: #ffffff;
+				}
+
+.reviewsdesc {margin-left: 278px;
+}
+
+/*reviews closed*/
+.reviewsmore a {font-size: 20px;
+			color: #ffc25c ;
+			margin-right: 446px;
+			margin-top: 167px;
+			margin-bottom: 167px;
+			text-decoration: none;
+			float: right;	
+				}
+.reviewsmore a:hover {color: #bebebe;}
+
+
+
+
+.clear {clear: both;}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
